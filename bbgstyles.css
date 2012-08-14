@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+#iframe {
+	padding: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 19px;
+	color: #333;
+	width: 642px; /*668 width to fit space but subtracted 13px x 2 for left and right padding*/
+	border: 1px solid #ccc; /*Take this border out later, just for testing purposes*/
+}
+
+
+#iframe h3 {
+	color: #fff;
+	text-transform: uppercase;
+	background: #EF355B;
+	margin: 0 0 3px 0;
+	font-size: 15px;
+	padding: 2px 10px 2px 10px;
+}
+
+#iframe .video {
+	width: 640px;
+	height: 360px;
+	margin: 0 0 20px 0;
+	border: 1px solid #ccc; /*Take this border out later, just for testing purposes*/
+}
+
+#iframe h4 {
+	color: #2E3E9F;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: normal;
+	margin: 0 0 4px 0;
+	padding: 0;
+}
+
+#iframe h5 {
+	color: #1BADCF;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 0 0 5px 0;
+}
+
+#iframe p {
+	margin: 0 0 12px 0;
+	padding: 0;
+}
+
+.description {
+	border-right: 1px solid #ccc;	
+	margin-right: 215px;
+	padding: 0 15px 10px 0;
+}
+
+.related {
+	float: right;
+	width: 180px;
+	
+	padding: 0 0 10px 15px;
+	margin: 0 0 0 20px;
+}
+
+.related ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.related ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 6px 14px;
+	background: url(bullet.png) top left no-repeat;
+}
+
+
